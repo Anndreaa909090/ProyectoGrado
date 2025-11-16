@@ -5,7 +5,7 @@ from sqlalchemy import text
 from app.database import engine
 import time
 
-app = FastAPI(title="API Proyecto Tutor")
+app = FastAPI(title="API Proyecto Tutor Academico")
 
 
 
