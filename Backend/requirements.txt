@@ -1,0 +1,50 @@
+# --- Core API ---
+fastapi==0.115.0
+uvicorn[standard]==0.30.1
+python-dotenv==1.0.1
+
+# --- Database ---
+SQLAlchemy==2.0.30
+psycopg2-binary==2.9.9
+
+# --- Auth & Security ---
+passlib[bcrypt]==1.7.4
+PyJWT==2.8.0
+
+# --- Data Validation ---
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# --- IA Open Source (100% gratuitas) ---
+# Whisper CPU-friendly
+openai-whisper==20231117
+
+# Faster-Whisper (mejor rendimiento)
+faster-whisper==1.0.0
+
+# NLP clásico para errores de lectura
+spacy==3.7.2
+spacy-spanish-lemmatizer==0.1.0
+
+# Modelos de Transformers (BETO, DistilBERT)
+transformers==4.41.1
+accelerate==0.33.0
+sentencepiece==0.2.0
+
+# --- Text-To-Speech Open Source ---
+# Coqui TTS
+TTS==0.22.0
+
+# Mozilla TTS (si deseas alternativas)
+# mozilla-tts==0.0.0  # opcional
+
+# Piper TTS (rápido en CPU)
+piper-tts==1.2.0
+
+# Audio utilities
+soundfile==0.12.1
+ffmpeg-python==0.2.0
+
+# --- Utilities ---
+numpy==1.26.4
+python-multipart==0.0.7
